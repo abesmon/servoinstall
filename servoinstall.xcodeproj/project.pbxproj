@@ -1,0 +1,115 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A6E4612E25ACC34E00144381 /* GlobalState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalState.h; sourceTree = "<group>"; };
+		A6E4612F25ACC34E00144381 /* FeatherBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeatherBlock.h; sourceTree = "<group>"; };
+		A6E4613025ACC34E00144381 /* StateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateController.h; sourceTree = "<group>"; };
+		A6E4613325ACC34E00144381 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		A6E4613525ACC34E00144381 /* App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		A6E4613625ACC34E00144381 /* servoinstall.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = servoinstall.ino; sourceTree = "<group>"; };
+		A6E4613825ACC34E00144381 /* FeatherBlock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FeatherBlock.cpp; sourceTree = "<group>"; };
+		A6E4613B25ACC34E00144381 /* App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = App.cpp; sourceTree = "<group>"; };
+		A6E4614225ACC5A200144381 /* IdleController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IdleController.cpp; sourceTree = "<group>"; };
+		A6E4614325ACC5A200144381 /* IdleController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IdleController.hpp; sourceTree = "<group>"; };
+		A6E4614425ACD4CF00144381 /* AppState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppState.cpp; sourceTree = "<group>"; };
+		A6E4614525ACD4CF00144381 /* AppState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AppState.hpp; sourceTree = "<group>"; };
+		A6E4614625ACD5F100144381 /* DebugController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DebugController.cpp; sourceTree = "<group>"; };
+		A6E4614725ACD5F100144381 /* DebugController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DebugController.hpp; sourceTree = "<group>"; };
+		A6E4614825ACD6FC00144381 /* BaseAnimController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseAnimController.cpp; sourceTree = "<group>"; };
+		A6E4614925ACD6FC00144381 /* BaseAnimController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseAnimController.hpp; sourceTree = "<group>"; };
+		A6E4614A25ACF52A00144381 /* SerialMotionController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SerialMotionController.cpp; sourceTree = "<group>"; };
+		A6E4614B25ACF52A00144381 /* SerialMotionController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SerialMotionController.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A6E4611725ACC27800144381 = {
+			isa = PBXGroup;
+			children = (
+				A6E4612D25ACC34E00144381 /* servoinstall */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E4612D25ACC34E00144381 /* servoinstall */ = {
+			isa = PBXGroup;
+			children = (
+				A6E4612E25ACC34E00144381 /* GlobalState.h */,
+				A6E4613325ACC34E00144381 /* Config.h */,
+				A6E4613625ACC34E00144381 /* servoinstall.ino */,
+				A6E4613B25ACC34E00144381 /* App.cpp */,
+				A6E4613525ACC34E00144381 /* App.h */,
+				A6E4613825ACC34E00144381 /* FeatherBlock.cpp */,
+				A6E4612F25ACC34E00144381 /* FeatherBlock.h */,
+				A6E4613025ACC34E00144381 /* StateController.h */,
+				A6E4614225ACC5A200144381 /* IdleController.cpp */,
+				A6E4614325ACC5A200144381 /* IdleController.hpp */,
+				A6E4614425ACD4CF00144381 /* AppState.cpp */,
+				A6E4614525ACD4CF00144381 /* AppState.hpp */,
+				A6E4614625ACD5F100144381 /* DebugController.cpp */,
+				A6E4614725ACD5F100144381 /* DebugController.hpp */,
+				A6E4614825ACD6FC00144381 /* BaseAnimController.cpp */,
+				A6E4614925ACD6FC00144381 /* BaseAnimController.hpp */,
+				A6E4614A25ACF52A00144381 /* SerialMotionController.cpp */,
+				A6E4614B25ACF52A00144381 /* SerialMotionController.hpp */,
+			);
+			path = servoinstall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		A6E4611825ACC27800144381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+			};
+			buildConfigurationList = A6E4611B25ACC27900144381 /* Build configuration list for PBXProject "servoinstall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6E4611725ACC27800144381;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A6E4611C25ACC27900144381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A6E4611D25ACC27900144381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E4611B25ACC27900144381 /* Build configuration list for PBXProject "servoinstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E4611C25ACC27900144381 /* Debug */,
+				A6E4611D25ACC27900144381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E4611825ACC27800144381 /* Project object */;
+}
